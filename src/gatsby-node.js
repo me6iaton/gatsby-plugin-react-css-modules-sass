@@ -4,7 +4,7 @@ exports.onCreateBabelConfig = ({ actions }, pluginOptions) => {
   pluginOptions.plugins && delete pluginOptions.plugins
 
   actions.setBabelPlugin({
-    name: `babel-plugin-react-css-modules`,
+    name: `babel-plugin-react-css-modules-sass`,
     options: {
       generateScopedName: isDevelopment
         ? `[name]--[local]--[hash:base64:5]`
