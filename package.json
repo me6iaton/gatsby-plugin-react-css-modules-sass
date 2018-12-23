@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-react-css-modules",
+  "name": "gatsby-plugin-react-css-modules-sass",
   "description": "Gatsby plugin that transforms styleName to className using compile time CSS module resolution",
   "version": "2.0.4",
   "author": "Ming Aldrich-Gan <mingaldrichgan@gmail.com>",
